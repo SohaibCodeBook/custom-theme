@@ -134,7 +134,7 @@
   <div class="pl-footer-bottom">
     <div class="container">
       <div class="d-flex flex-wrap align-items-center justify-content-between gap-2">
-        <p>&copy; <?php echo date('Y'); ?> Ceylon PrimeLink Holdings (Pvt) Ltd. All rights reserved.</p>
+        <p>&copy; 2025 Ceylon PrimeLink Holdings (Pvt) Ltd. All rights reserved.</p>
         <div class="d-flex gap-3">
           <a href="<?php echo esc_url(home_url('/privacy-policy')); ?>">Privacy Policy</a>
           <a href="<?php echo esc_url(home_url('/contact')); ?>">Contact</a>
