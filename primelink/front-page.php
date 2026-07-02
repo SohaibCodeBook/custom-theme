@@ -117,6 +117,7 @@
           <?php
           $features = [
             ['fa-mountain', 'Geotechnical Engineering & Site Investigations'],
+            ['fa-hammer',   'Construction Consultancy & Project Support'],
             ['fa-map',      'GIS & Mapping Solutions (ArcGIS / QGIS)'],
             ['fa-drafting-compass', 'AutoCAD Drafting & Housing Design'],
             ['fa-shield-halved', 'Landslide Mitigation & Slope Stability'],
