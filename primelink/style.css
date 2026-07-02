@@ -436,12 +436,13 @@ body.is-home #site-header:not(.scrolled) .pl-hamburger span { background: #fff; 
    ============================================================ */
 .pl-hero {
   min-height: 100vh;
+  min-height: 100svh;
   background: linear-gradient(135deg, #0f172a 0%, #1e3a8a 50%, #1a56db 100%);
   display: flex;
   align-items: center;
   position: relative;
   overflow: hidden;
-  padding: 130px 0 80px;
+  padding: 120px 0 56px;
 }
 
 /* Geometric decoration */
@@ -507,12 +508,12 @@ body.is-home #site-header:not(.scrolled) .pl-hamburger span { background: #fff; 
 }
 
 .pl-hero h1 {
-  font-size: clamp(2.4rem, 6vw, 4.2rem);
+  font-size: clamp(2rem, 4.8vw, 3.4rem);
   font-weight: 800;
   color: #fff;
-  line-height: 1.1;
+  line-height: 1.12;
   letter-spacing: -0.03em;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1.15rem;
 }
 .pl-hero h1 .highlight {
   background: linear-gradient(135deg, #f59e0b, #fbbf24);
@@ -521,11 +522,11 @@ body.is-home #site-header:not(.scrolled) .pl-hamburger span { background: #fff; 
   background-clip: text;
 }
 .pl-hero-lead {
-  font-size: 1.15rem;
+  font-size: 1.08rem;
   color: rgba(255,255,255,.72);
-  line-height: 1.8;
+  line-height: 1.75;
   max-width: 560px;
-  margin-bottom: 2.5rem;
+  margin-bottom: 1.75rem;
   font-weight: 400;
 }
 .pl-hero-actions {
@@ -533,7 +534,7 @@ body.is-home #site-header:not(.scrolled) .pl-hamburger span { background: #fff; 
   align-items: center;
   gap: 16px;
   flex-wrap: wrap;
-  margin-bottom: 3.5rem;
+  margin-bottom: 2.25rem;
 }
 
 /* Stats */
@@ -542,7 +543,7 @@ body.is-home #site-header:not(.scrolled) .pl-hamburger span { background: #fff; 
   gap: 0;
   flex-wrap: wrap;
   border-top: 1px solid rgba(255,255,255,.1);
-  padding-top: 2rem;
+  padding-top: 1.5rem;
 }
 .pl-hero-stat {
   padding: 0 2.5rem 0 0;
@@ -1597,8 +1598,8 @@ body.is-home #site-header:not(.scrolled) .pl-hamburger span { background: #fff; 
 @media (max-width: 991.98px) {
   .section-lg { padding: 70px 0; }
   .section-md { padding: 50px 0; }
-  .pl-hero { padding: 120px 0 70px; min-height: auto; }
-  .pl-hero h1 { font-size: clamp(2rem,5vw,3rem); }
+  .pl-hero { padding: 110px 0 60px; min-height: auto; }
+  .pl-hero h1 { font-size: clamp(1.85rem, 4.5vw, 2.75rem); }
   .pl-hero-main-img { height: 320px; }
   .pl-hero-float-card.top-left { top: -10px; left: -10px; }
   .pl-hero-float-card.bottom-right { bottom: -10px; right: -10px; }
@@ -1737,9 +1738,9 @@ body.is-home #site-header:not(.scrolled) .pl-nav-cta {
 }
 
 /* Fix hero on homepage — extra top padding for fixed nav */
-.pl-hero { padding-top: 110px; }
+.pl-hero { padding-top: 100px; padding-bottom: 48px; }
 @media (max-width: 767.98px) {
-  .pl-hero { padding-top: 90px; }
+  .pl-hero { padding-top: 88px; padding-bottom: 44px; }
 }
 
 /* Bootstrap container padding fix */

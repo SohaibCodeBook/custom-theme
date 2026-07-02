@@ -88,32 +88,6 @@
 </section>
 
 <!-- ============================================================
-     STATS STRIP
-     ============================================================ -->
-<div class="pl-stats-strip">
-  <div class="container-fluid px-0">
-    <div class="pl-stats-grid">
-      <div class="pl-stat-item">
-        <span class="pl-stat-num">200<span class="plus">+</span></span>
-        <span class="pl-stat-label">Projects Completed</span>
-      </div>
-      <div class="pl-stat-item">
-        <span class="pl-stat-num">150<span class="plus">+</span></span>
-        <span class="pl-stat-label">Satisfied Clients</span>
-      </div>
-      <div class="pl-stat-item">
-        <span class="pl-stat-num">6</span>
-        <span class="pl-stat-label">Service Sectors</span>
-      </div>
-      <div class="pl-stat-item">
-        <span class="pl-stat-num">10<span class="plus">+</span></span>
-        <span class="pl-stat-label">Years Experience</span>
-      </div>
-    </div>
-  </div>
-</div>
-
-<!-- ============================================================
      ABOUT SECTION
      ============================================================ -->
 <section class="section-lg" aria-labelledby="about-h">
