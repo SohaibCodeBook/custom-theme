@@ -12,7 +12,7 @@ get_header(); ?>
       <div class="col-lg-7">
         <div class="section-badge mb-3"><i class="fa-solid fa-building-columns fa-xs me-2"></i>Who We Are</div>
         <h1>About Ceylon PrimeLink Holdings</h1>
-        <p class="mt-3" style="color:rgba(255,255,255,.7);font-size:1.05rem;max-width:560px;">A Sri Lankan multi-sector company delivering engineering, geotechnical, GIS, construction, software, and IT solutions with precision and integrity.</p>
+        <p class="mt-3" style="color:rgba(255,255,255,.7);font-size:1.05rem;max-width:560px;">Specialists in landslide investigations and geotechnical testing across Sri Lanka, with expanded engineering, GIS, software, and IT solutions.</p>
       </div>
       <div class="col-lg-5 d-none d-lg-flex justify-content-end">
         <div class="pl-breadcrumb mt-2">
@@ -44,9 +44,10 @@ get_header(); ?>
         <div class="section-badge"><i class="fa-solid fa-flag fa-xs me-2"></i>Our Story</div>
         <h2 class="section-title mt-3">Ceylon PrimeLink Holdings (Pvt) Ltd</h2>
         <div class="section-divider"></div>
-        <p class="text-muted-pl">Ceylon PrimeLink Holdings is a Sri Lankan multi-sector company that connects engineering expertise with modern technology solutions. Established to serve the growing needs of Sri Lankan businesses, infrastructure developers, and individuals, we operate across geotechnical engineering, GIS, AutoCAD, construction consultancy, software development, and IT retail.</p>
-        <p class="text-muted-pl">Our mission is to provide practical, cost-effective, and professionally delivered services that make a real difference to our clients' projects. Whether it is a geotechnical site investigation for a housing development, a GIS mapping study for a university research project, or a custom cashier system for a small business, we approach every project with the same level of professionalism and attention to detail.</p>
-        <p class="text-muted-pl mb-4">We are based at our main office and retail outlet in Gampaha, conveniently located in the Western Province of Sri Lanka, and we serve clients across the island.</p>
+        <p class="text-muted-pl">Ceylon PrimeLink Holdings is a Sri Lankan multi-sector company delivering engineering, geotechnical, GIS, construction, software, and IT solutions with precision and integrity.</p>
+        <p class="text-muted-pl">We primarily specialize in <strong>landslide investigations and geotechnical testing</strong>. Much of our work focuses on landslide-prone areas in Sri Lanka, including districts such as <strong>Kandy, Nuwara Eliya, Badulla, Kegalle, Ratnapura, Galle, Kalutara</strong>, and parts of <strong>Gampaha</strong> and <strong>Kurunegala</strong>. This has been our core expertise, and over time we expanded our services to include <strong>AutoCAD drafting, engineering design, and related consultancy services</strong>.</p>
+        <p class="text-muted-pl">Our mission is to connect industries through practical engineering knowledge, modern technology, and innovative solutions. Whether it is a geotechnical site investigation for a housing development, a GIS mapping study for a university research project, or a custom business software solution, we approach every project with the same level of professionalism and attention to detail.</p>
+        <p class="text-muted-pl mb-4">We are based at our main office and retail outlet in Gampaha, conveniently located in the Western Province of Sri Lanka, and we serve clients across the island. Enquiries are welcome via email, telephone, WhatsApp, or our online enquiry form.</p>
         <div class="d-flex gap-3 flex-wrap">
           <a href="<?php echo esc_url(home_url('/contact')); ?>" class="btn-pl btn-primary-pl">
             <i class="fa-solid fa-paper-plane fa-sm"></i> Get in Touch

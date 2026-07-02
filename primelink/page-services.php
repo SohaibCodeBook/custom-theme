@@ -17,6 +17,16 @@ get_header(); ?>
   </div>
 </section>
 
+<!-- SERVICE NOTICE -->
+<section class="section-md" style="padding-bottom: 0;">
+  <div class="container">
+    <div class="pl-alert info" role="note">
+      <i class="fa-solid fa-circle-info" aria-hidden="true"></i>
+      <p>Most of our services are customized to meet each client's specific requirements. Please contact us to discuss your project and request a quote before proceeding.</p>
+    </div>
+  </div>
+</section>
+
 <!-- ENGINEERING SERVICES -->
 <section class="section-lg" id="engineering">
   <div class="container">
@@ -29,10 +39,10 @@ get_header(); ?>
         <div class="section-badge"><i class="fa-solid fa-mountain fa-xs me-2"></i>Engineering</div>
         <h2 class="section-title mt-3">Engineering &amp; Geotechnical Services</h2>
         <div class="section-divider"></div>
-        <p class="text-muted-pl">Professional geotechnical, construction, and engineering services delivered with technical precision and industry-standard methodologies.</p>
+        <p class="text-muted-pl">Professional geotechnical, landslide, and engineering services delivered with technical precision and industry-standard methodologies. Our work includes landslide &amp; hazard testing, mitigation, and construction-related consultancy across Sri Lanka.</p>
         <div class="row g-2 mt-3">
           <?php
-          $eng = ['Geotechnical Investigations & SPT','Borehole Drilling (Soil & Rock)','Core Logging & Engineering Reports','Landslide Mitigation Works','Retaining Wall Design','Earth Reinforcement Systems','Foundation Engineering','Site Re-evaluation (Gov-Rejected)','Construction Consultancy'];
+          $eng = ['Geotechnical Investigations & SPT','Landslide & Hazard Testing','Borehole Drilling (Soil & Rock)','Core Logging & Engineering Reports','Landslide Mitigation Works','Retaining Wall Design','Earth Reinforcement Systems','Foundation Engineering','Site Re-evaluation (Gov-Rejected)','Construction Consultancy'];
           foreach ($eng as $item) : ?>
           <div class="col-md-6">
             <div class="d-flex align-items-center gap-2" style="font-size:0.88rem;padding:6px 0;border-bottom:1px solid var(--pl-border);">
@@ -183,8 +193,9 @@ get_header(); ?>
           <ul class="pl-price-features">
             <li><i class="fa-solid fa-check"></i> GIS mapping & analysis</li>
             <li><i class="fa-solid fa-check"></i> AutoCAD project support</li>
+            <li><i class="fa-solid fa-check"></i> Landslide &amp; hazard testing</li>
             <li><i class="fa-solid fa-check"></i> Geotechnical reports</li>
-            <li><i class="fa-solid fa-check"></i> Slope stability analysis</li>
+            <li><i class="fa-solid fa-check"></i> Landslide mitigation &amp; slope stability</li>
           </ul>
           <a href="<?php echo esc_url(home_url('/contact')); ?>" class="btn-pl btn-outline-dark w-100 justify-content-center">Get Quote</a>
         </div>
